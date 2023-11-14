@@ -14,7 +14,7 @@ pip install cyprint
 
 ```python
 from cyprint import cyprint, LogLevel
-
+cyprint('默认为info信息')
 cyprint('info信息', "INFO")
 cyprint('警告信息', "WARNING")
 cyprint('成功信息', "SUCCESS")
